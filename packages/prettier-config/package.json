@@ -29,6 +29,9 @@
   "bugs": {
     "url": "https://github.com/senoteam/style-guide/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "prettier": "^3.0.1"
   }
