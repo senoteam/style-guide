@@ -1,0 +1,35 @@
+{
+  "name": "@senojs/prettier-config",
+  "version": "0.0.0",
+  "description": "prettier config",
+  "keywords": [
+    "senoteam",
+    "senojs",
+    "seno",
+    "prettier",
+    "config"
+  ],
+  "type": "module",
+  "author": "htmlin <10543563@qq.com>",
+  "homepage": "https://github.com/senoteam/style-guide#readme",
+  "license": "MIT",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senoteam/style-guide.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/senoteam/style-guide/issues"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.1"
+  }
+}

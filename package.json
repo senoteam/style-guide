@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "packageManager": "pnpm@8.6.12",
+  "type": "module",
+  "prettier": "@senojs/prettier-config",
+  "scripts": {
+    "graph": "nx graph",
+    "release": "lerna publish --no-private --conventional-commits --conventional-graduate --create-release github"
+  },
+  "devDependencies": {
+    "@senojs/prettier-config": "workspace:^",
+    "lerna": "~7.1.4",
+    "prettier": "~3.0.1"
+  }
+}
