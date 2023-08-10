@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.1.1...@senojs/prettier-config@0.2.0) (2023-08-10)
+
+
+### Features
+
+* **prettier-config:** support sort import ([1f19060](https://github.com/senoteam/style-guide/commit/1f190601f48922bb6397af05f19d4502f9b814e6))
+
+
+
+
+
 ## [0.1.1](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.1.0...@senojs/prettier-config@0.1.1) (2023-08-07)
 
 
