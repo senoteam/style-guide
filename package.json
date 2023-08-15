@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@senojs/prettier-config": "workspace:^",
-    "lerna": "~7.1.4",
+    "lerna": "~7.1.5",
     "prettier": "~3.0.1"
   }
 }
