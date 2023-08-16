@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.2.1...@senojs/prettier-config@0.2.2) (2023-08-16)
+
+### Performance Improvements
+
+- **prettier-config:** update `printWidth` from `120` to `100` ([224cd94](https://github.com/senoteam/style-guide/commit/224cd943bb8753970bcbec5285623a988ce27e37))
+
 ## [0.2.1](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.2.0...@senojs/prettier-config@0.2.1) (2023-08-15)
 
 ### Performance Improvements
