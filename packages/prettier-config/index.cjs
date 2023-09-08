@@ -3,7 +3,7 @@ module.exports = {
   quoteProps: 'consistent',
   semi: false,
   singleQuote: true,
-  importOrder: ['<THIRD_PARTY_MODULES>', '^[./]'],
+  importOrder: ['^[./](?!.*ss$).*$', 'ss$'],
   importOrderSeparation: true,
   plugins: ['@trivago/prettier-plugin-sort-imports'],
 }
