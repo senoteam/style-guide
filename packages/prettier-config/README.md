@@ -17,10 +17,10 @@ Reference it in your `package.json`:
 If you don’t want to use `package.json`, or if you need to extend the configuration to overwrite some properties from our configuration, import the file in a `.prettierrc.js` file and export the modifications, e.g:
 
 ```js
-import senojsPrettierConfig from '@senojs/prettier-config'
+import senoPrettierConfig from '@senojs/prettier-config'
 
 export default {
-  ...senojsPrettierConfig,
+  ...senoPrettierConfig,
   printWidth: 120,
 }
 ```

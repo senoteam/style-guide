@@ -1,24 +1,24 @@
 {
-  "name": "@senojs/prettier-config",
-  "version": "0.3.0",
+  "name": "@senojs/commitlint-config",
+  "version": "0.0.0",
   "type": "module",
-  "description": "prettier config",
+  "description": "commitlint config",
   "keywords": [
     "senoteam",
     "senojs",
     "seno",
-    "prettier",
+    "commitlint",
     "config"
   ],
   "author": "htmlin <htmlin@qq.com>",
   "homepage": "https://github.com/senoteam/style-guide#readme",
   "license": "MIT",
-  "main": "./index.cjs",
+  "main": "./index.js",
   "module": "./index.js",
   "exports": {
     ".": {
       "import": "./index.js",
-      "require": "./index.cjs"
+      "require": "./index.js"
     }
   },
   "repository": {
@@ -33,9 +33,9 @@
     "access": "public"
   },
   "peerDependencies": {
-    "prettier": "^2.0.0 || ^3.0.0"
+    "@commitlint/cli": "^19.6.1"
   },
   "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.2.0"
+    "@commitlint/config-conventional": "^19.6.0"
   }
 }

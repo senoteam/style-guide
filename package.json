@@ -1,15 +1,30 @@
 {
   "name": "root",
   "private": true,
-  "packageManager": "pnpm@8.6.12",
+  "type": "module",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "packageManager": "pnpm@9.12.3",
+  "commitlint": {
+    "extends": [
+      "@senojs"
+    ]
+  },
   "prettier": "@senojs/prettier-config",
   "scripts": {
-    "graph": "nx graph",
+    "prepare": "husky",
     "release": "lerna publish --no-private --conventional-commits --conventional-graduate --create-release github"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@senojs/commitlint-config": "workspace:^",
+    "@senojs/eslint-config": "workspace:^",
     "@senojs/prettier-config": "workspace:^",
-    "lerna": "~7.2.0",
+    "eslint": "~9.0.0",
+    "husky": "~9.1.7",
+    "lerna": "~8.1.9",
+    "lint-staged": "~15.3.0",
     "prettier": "~3.0.3"
   }
 }

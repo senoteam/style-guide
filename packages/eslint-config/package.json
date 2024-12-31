@@ -1,24 +1,24 @@
 {
-  "name": "@senojs/prettier-config",
-  "version": "0.3.0",
+  "name": "@senojs/eslint-config",
+  "version": "0.0.0",
   "type": "module",
-  "description": "prettier config",
+  "description": "eslint config",
   "keywords": [
     "senoteam",
     "senojs",
     "seno",
-    "prettier",
+    "eslint",
     "config"
   ],
   "author": "htmlin <htmlin@qq.com>",
   "homepage": "https://github.com/senoteam/style-guide#readme",
   "license": "MIT",
-  "main": "./index.cjs",
+  "main": "./index.js",
   "module": "./index.js",
   "exports": {
     ".": {
       "import": "./index.js",
-      "require": "./index.cjs"
+      "require": "./index.js"
     }
   },
   "repository": {
@@ -33,9 +33,13 @@
     "access": "public"
   },
   "peerDependencies": {
-    "prettier": "^2.0.0 || ^3.0.0"
+    "eslint": "^9.0.0"
   },
   "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.2.0"
+    "@eslint/js": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.14.0",
+    "typescript-eslint": "^8.19.0"
   }
 }
