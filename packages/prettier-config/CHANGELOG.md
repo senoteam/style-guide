@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.3.0...@senojs/prettier-config@0.4.0) (2025-01-01)
+
+### Features
+
+- init ([5fff6eb](https://github.com/senoteam/style-guide/commit/5fff6ebffd00e108489235034443d9aa17ae081f))
+
 # [0.3.0](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.2.2...@senojs/prettier-config@0.3.0) (2023-09-08)
 
 ### Features
