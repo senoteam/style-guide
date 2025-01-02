@@ -17,7 +17,10 @@ export default tseslint.config(
       reportUnusedDisableDirectives: 'error',
     },
     plugins: {
-      reactHooks,
+      'react-hooks': reactHooks,
+    },
+    rules: {
+      ...reactHooks.configs.recommended.rules,
     },
   },
 )
