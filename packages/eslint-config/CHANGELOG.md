@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.1.1...@senojs/eslint-config@0.1.2) (2025-01-03)
+
+**Note:** Version bump only for package @senojs/eslint-config
+
 ## [0.1.1](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.1.0...@senojs/eslint-config@0.1.1) (2025-01-02)
 
 ### Bug Fixes
