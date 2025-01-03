@@ -1,3 +1,10 @@
 .husky/
 
 .*
+*.jpg
+*.png
+*.svg
+*.woff2
+LICENSE
+package*.json
+pnpm-lock.yaml
