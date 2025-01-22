@@ -21,6 +21,9 @@ export default tseslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      'no-console': ['warn', { allow: ['warn', 'error'] }],
+      'object-shorthand': ['error', 'properties', { avoidQuotes: true }],
+      'prefer-const': ['error', { destructuring: 'all' }],
       '@typescript-eslint/no-explicit-any': 'warn',
     },
   },
