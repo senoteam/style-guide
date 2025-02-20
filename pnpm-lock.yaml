@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@commitlint/cli':
-        specifier: ^19.6.1
+        specifier: ~19.6.1
         version: 19.6.1(@types/node@22.10.2)(typescript@5.1.6)
       '@senojs/commitlint-config':
         specifier: workspace:^
@@ -30,8 +30,8 @@ importers:
         specifier: ~8.1.9
         version: 8.1.9(encoding@0.1.13)
       lint-staged:
-        specifier: ~15.3.0
-        version: 15.3.0
+        specifier: ~15.4.1
+        version: 15.4.1
       prettier:
         specifier: ~3.0.3
         version: 3.0.3
@@ -1718,8 +1718,8 @@ packages:
     resolution: {integrity: sha512-cNOjgCnLB+FnvWWtyRTzmB3POJ+cXxTA81LoW7u8JdmhfXzriropYwpjShnz1QLLWsQwY7nIxoDmcPTwphDK9w==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  lint-staged@15.3.0:
-    resolution: {integrity: sha512-vHFahytLoF2enJklgtOtCtIjZrKD/LoxlaUusd5nh7dWv/dkKQJY74ndFSzxCdv7g0ueGg1ORgTSt4Y9LPZn9A==}
+  lint-staged@15.4.1:
+    resolution: {integrity: sha512-P8yJuVRyLrm5KxCtFx+gjI5Bil+wO7wnTl7C3bXhvtTaAFGirzeB24++D0wGoUwxrUKecNiehemgCob9YL39NA==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -4837,7 +4837,7 @@ snapshots:
 
   lines-and-columns@2.0.3: {}
 
-  lint-staged@15.3.0:
+  lint-staged@15.4.1:
     dependencies:
       chalk: 5.4.1
       commander: 12.1.0

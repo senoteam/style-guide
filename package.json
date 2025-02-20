@@ -5,7 +5,7 @@
   "engines": {
     "node": ">=18.18.0"
   },
-  "packageManager": "pnpm@9.12.3",
+  "packageManager": "pnpm@9.15.5",
   "commitlint": {
     "extends": [
       "@senojs"
@@ -17,14 +17,14 @@
     "release": "lerna publish --no-private --conventional-commits --conventional-graduate --create-release github"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
+    "@commitlint/cli": "~19.6.1",
     "@senojs/commitlint-config": "workspace:^",
     "@senojs/eslint-config": "workspace:^",
     "@senojs/prettier-config": "workspace:^",
     "eslint": "~9.0.0",
     "husky": "~9.1.7",
     "lerna": "~8.1.9",
-    "lint-staged": "~15.3.0",
+    "lint-staged": "~15.4.1",
     "prettier": "~3.0.3"
   }
 }
