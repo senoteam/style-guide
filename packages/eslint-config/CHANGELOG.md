@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.2.0...@senojs/eslint-config@0.3.0) (2025-02-20)
+
+### Features
+
+- **eslint-config:** add rule for unused variables with underscore pattern ([28af60f](https://github.com/senoteam/style-guide/commit/28af60ff0beec8a8f66475dd4a7431121f6ff8ac))
+
 # [0.2.0](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.1.2...@senojs/eslint-config@0.2.0) (2025-01-22)
 
 ### Features
