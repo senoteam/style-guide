@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=18.18.0"
+    "node": ">=18.20.7"
   },
-  "packageManager": "pnpm@9.15.5",
+  "packageManager": "pnpm@9.15.9",
   "commitlint": {
     "extends": [
       "@senojs"
@@ -24,7 +24,7 @@
     "eslint": "~9.0.0",
     "husky": "~9.1.7",
     "lerna": "~8.1.9",
-    "lint-staged": "~15.4.1",
+    "lint-staged": "~15.4.3",
     "prettier": "~3.0.3"
   }
 }
