@@ -10,7 +10,10 @@ export default tseslint.config(
   eslintConfigPrettier,
   {
     languageOptions: {
-      globals: globals.browser,
+      globals: {
+        ...globals.node,
+        ...globals.browser,
+      },
     },
     linterOptions: {
       noInlineConfig: true,
