@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.3.0...@senojs/eslint-config@0.4.0) (2025-03-26)
+
+### Features
+
+- add `globals.node` ([afc6b4a](https://github.com/senoteam/style-guide/commit/afc6b4ac53e8a5068d0aac114462de2e630f069f))
+
 # [0.3.0](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.2.0...@senojs/eslint-config@0.3.0) (2025-02-20)
 
 ### Features

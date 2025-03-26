@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.4.0...@senojs/prettier-config@0.5.0) (2025-03-26)
+
+### Features
+
+- update `@trivago/prettier-plugin-sort-imports` to v5.2.1 ([2586265](https://github.com/senoteam/style-guide/commit/25862652c555d2e780a319a385b0a381c102f939))
+
 # [0.4.0](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.3.0...@senojs/prettier-config@0.4.0) (2025-01-01)
 
 ### Features
