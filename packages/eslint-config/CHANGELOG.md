@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.4.0...@senojs/eslint-config@0.5.0) (2025-04-16)
+
+### Features
+
+- **eslint-config:** upgrade `eslint-config-prettier` to 10.0.0，`eslint-plugin-react-hooks` to 5.2.0 ([5b75a5e](https://github.com/senoteam/style-guide/commit/5b75a5e57cfad6cb18591d7dff95a2aaeff1803c))
+
 # [0.4.0](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.3.0...@senojs/eslint-config@0.4.0) (2025-03-26)
 
 ### Features
