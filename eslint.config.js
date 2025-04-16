@@ -1,4 +1,8 @@
 import senoESLintConfig from '@senojs/eslint-config'
+import { defineConfig } from 'eslint/config'
 
-/** @type {import('eslint').Linter.Config[]} */
-export default [...senoESLintConfig]
+export default defineConfig([
+  {
+    extends: [senoESLintConfig],
+  },
+])
