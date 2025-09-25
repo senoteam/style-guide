@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.5.0...@senojs/eslint-config@0.6.0) (2025-09-25)
+
+### Features
+
+- **eslint-config:** add `react-hooks/exhaustive-deps` rule ([88bd0a7](https://github.com/senoteam/style-guide/commit/88bd0a7d7f97de4228dfbd9f39199d9c670d879c))
+
 # [0.5.0](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.4.0...@senojs/eslint-config@0.5.0) (2025-04-16)
 
 ### Features
