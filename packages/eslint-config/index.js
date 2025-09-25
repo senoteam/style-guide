@@ -27,6 +27,8 @@ export default tseslint.config(
       'object-shorthand': ['error', 'properties', { avoidQuotes: true }],
       'prefer-const': ['error', { destructuring: 'all' }],
 
+      'react-hooks/exhaustive-deps': 'warn',
+
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     },
