@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.5.0...@senojs/prettier-config@0.6.0) (2025-11-26)
+
+### Features
+
+- **prettier-config:** Node.js builtin modules will be sorted to the top ([0aa421e](https://github.com/senoteam/style-guide/commit/0aa421ecd8ba040aa44bbcc7bb2610b562eb8ff9))
+
 # [0.5.0](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.4.0...@senojs/prettier-config@0.5.0) (2025-03-26)
 
 ### Features
