@@ -33,7 +33,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@commitlint/cli": "^19.6.1"
+    "@commitlint/cli": "^19.6.1 || ^20.0.0"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^19.6.0"
