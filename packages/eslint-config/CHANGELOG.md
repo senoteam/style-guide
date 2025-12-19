@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.6.0...@senojs/eslint-config@0.7.0) (2025-12-19)
+
+### Features
+
+- update dependencies and ESLint configuration ([3a12331](https://github.com/senoteam/style-guide/commit/3a123311591b7cafb3e36fa9e936d29355e13389))
+
 # [0.6.0](https://github.com/senoteam/style-guide/compare/@senojs/eslint-config@0.5.0...@senojs/eslint-config@0.6.0) (2025-09-25)
 
 ### Features
