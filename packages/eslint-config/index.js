@@ -1,12 +1,15 @@
-import js from '@eslint/js'
-import eslintConfigPrettier from 'eslint-config-prettier'
+import eslint from '@eslint/js'
+import eslintConfigPrettier from 'eslint-config-prettier/flat'
 import reactHooks from 'eslint-plugin-react-hooks'
+import { defineConfig } from 'eslint/config'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
-export default tseslint.config(
-  js.configs.recommended,
+export default defineConfig(
+  eslint.configs.recommended,
   tseslint.configs.recommended,
+  tseslint.configs.stylistic,
+  reactHooks.configs.flat.recommended,
   eslintConfigPrettier,
   {
     languageOptions: {
@@ -19,15 +22,10 @@ export default tseslint.config(
       noInlineConfig: true,
       reportUnusedDisableDirectives: 'error',
     },
-    plugins: {
-      'react-hooks': reactHooks,
-    },
     rules: {
       'no-console': ['warn', { allow: ['warn', 'error'] }],
       'object-shorthand': ['error', 'properties', { avoidQuotes: true }],
       'prefer-const': ['error', { destructuring: 'all' }],
-
-      'react-hooks/exhaustive-deps': 'warn',
 
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
