@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.6.0...@senojs/prettier-config@0.7.0) (2026-03-11)
+
+### Features
+
+- add prettier-plugin-tailwindcss to prettier-config ([638e91d](https://github.com/senoteam/style-guide/commit/638e91dc989bfa680d6173ed709912acf158b115))
+
 # [0.6.0](https://github.com/senoteam/style-guide/compare/@senojs/prettier-config@0.5.0...@senojs/prettier-config@0.6.0) (2025-11-26)
 
 ### Features
